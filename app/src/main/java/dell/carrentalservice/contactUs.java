@@ -32,7 +32,7 @@ public class contactUs extends AppCompatActivity {
 
     public void call (View view) {
         final int REQUEST_PHONE_CALL = 1;
-        Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:70647298"));
+        Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:00000000"));
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CALL_PHONE},REQUEST_PHONE_CALL);
         }

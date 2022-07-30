@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Car Rental Service</string>
+    <string name="login_as_owner">LOGIN AS OWNER</string>
+    <string name="login_as_user">LOGIN AS USER</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="welcome_to_csr">WELCOME TO CSR</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="call_us">CALL US</string>
+    <string name="email_us">EMAIL US</string>
+    <string name="log_in">LOG IN</string>
+    <string name="username">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="re_type_password">RE-TYPE PASSWORD</string>
+    <string name="car_manufacturer">Car Manufacturer</string>
+    <string name="car_model">Car Model</string>
+    <string name="year_of_manufacture">Year of Manufacture</string>
+    <string name="car_number">Car Number</string>
+    <string name="car_price_24_hours">Car Price (24 hours)</string>
+    <string name="add_car">ADD CAR</string>
+    <string name="sign_out">SIGN OUT</string>
+    <string name="view_all_remove_cars">VIEW ALL/REMOVE CARS</string>
+    <string name="rent_a_car">RENT A CAR</string>
+    <string name="rented_car">RENTED CAR</string>
+    <string name="none">NONE</string>
+    <string name="return_car">RETURN CAR</string>
+    <string name="view_all_users">VIEW ALL USERS</string>
+</resources>

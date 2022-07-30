@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dell.carrentalservice">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".adminLogin"
+            android:label="Login As Owner"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".userLogin"
+            android:label="Login As User"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".signUp"
+            android:label="Sign Up"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".contactUs"
+            android:label="Contact Us"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AllCarsFromAdmin"
+            android:label="View All Cars or Remove a Car"
+            android:parentActivityName=".AdminLoggedIn"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminLoggedIn"
+            android:parentActivityName=".MainActivity"
+            android:label="CSR"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UserLoggedIn"
+            android:parentActivityName=".MainActivity"
+            android:label="CSR"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AllCarsFromUser"
+            android:label="Rent a Car"
+            android:parentActivityName=".UserLoggedIn"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".addCar"
+            android:label="Add Car"
+            android:parentActivityName=".AdminLoggedIn"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".viewAllUsers"
+            android:label="All Users"
+            android:parentActivityName=".AdminLoggedIn"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

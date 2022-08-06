@@ -7,7 +7,7 @@ The admin can login using "Login as owner", where the username and password are 
 The admin has the ability to add, view and remove cars from the database, as well as viewing all users.
 
 A user needs to create an account using "Sign up", then he can login using "Login as user".
-After loggin in, the user can rent a car in case he has not yet rented one. He can also return the car.
+After logging in, the user can rent a car in case he has not yet rented one. He can also return the car.
 
 There's also a "Contact us" page, where the user can choose to call or email the owner.
 
